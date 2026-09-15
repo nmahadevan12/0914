@@ -1,0 +1,11 @@
+{
+  "cmake.sourceDirectory": "${workspaceFolder}/test_0914",
+  "cmake.buildDirectory": "${workspaceFolder}/test_0914/build/${buildType}",
+  "cmake.useCMakePresets": "always",
+  "cmake.configureOnOpen": true,
+  "cmake.preferredGenerators": ["Ninja"],
+  "cmake.environment": {
+    "PATH": "/opt/homebrew/bin:/usr/bin:/bin:/Users/nikhilmahadevan/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-darwin-arm64/resources/cube-cmake/darwin/aarch64:/Users/nikhilmahadevan/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-darwin-arm64/resources/binaries/darwin/aarch64"
+  },
+  "terminal.integrated.inheritEnv": true
+}
