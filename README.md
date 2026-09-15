@@ -112,9 +112,3 @@ Firmware output:
 ```text
 test_0914/build/Debug/*.elf
 ```
-
-## Notes
-
-- Do **not** share settings with `/Users/<yourname>/.vscode/extensions/...` hard-coded — they break on other machines.
-- Prefer CMake presets (`Debug` / `Release`) over “[N/A - Select Kit]”.
-- If you open `test_0914` itself as the workspace, change `cmake.sourceDirectory` and `cwd` to `${workspaceFolder}`.
